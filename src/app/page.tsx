@@ -1,3 +1,9 @@
+import DisplayUser from "./shared/components/display-user";
+
 export default function Home() {
-  return <main>Hello World</main>;
+  return (
+    <main>
+      <DisplayUser />
+    </main>
+  );
 }
